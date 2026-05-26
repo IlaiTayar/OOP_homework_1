@@ -1,3 +1,6 @@
+from animal import Animal
+
+
 class Person:
 
     def __init__(self, first_name, last_name, age, gender, married):
@@ -15,9 +18,12 @@ class Person:
               f"\n age: {self.age}"
               f"\n gender: {self.gender}"
               f"\n married: {self.married}")
-        print(f"owned_animals: ")
-        for animal in self.owned_animals:
-            print(f" ({animal.type}, {animal.name})")
+        print(f" owned_animals: ")
+        if len(self.owned_animals) == 0:
+            print(" No animals found")
+        else:
+            for animal in self.owned_animals:
+                print(f"({animal.type}, {animal.name})")
 
     def add_animal(self, animal):
         self.owned_animals.append(animal)
