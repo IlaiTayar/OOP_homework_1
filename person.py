@@ -17,8 +17,9 @@ class Person:
               f"\n last_name: {self.last_name}"
               f"\n age: {self.age}"
               f"\n gender: {self.gender}"
-              f"\n married: {self.married}")
-        print(f" owned_animals: ")
+              f"\n married: {self.married}"
+              f"\n owned_animals: ")
+
         if len(self.owned_animals) == 0:
             print(" No animals found")
         else:
@@ -27,3 +28,6 @@ class Person:
 
     def add_animal(self, animal):
         self.owned_animals.append(animal)
+
+    def del_animal(self, animal):
+        self.owned_animals.remove(animal)

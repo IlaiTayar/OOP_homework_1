@@ -51,3 +51,6 @@ if __name__ == '__main__':
     owner_2.print_info()
     print("--------------------------")
     owner_3.print_info()
+    print("--------------------------")
+    owner_1.del_animal(animal_2)
+    owner_1.print_info()
