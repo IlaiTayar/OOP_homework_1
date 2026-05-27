@@ -1,5 +1,6 @@
 from person import Person
 from animal import Animal
+from ract_mkr import  Ract_mkr
 
 if __name__ == '__main__':
     #answer 1.
@@ -26,6 +27,8 @@ if __name__ == '__main__':
     print(person_2.married)
 
     print("--------------------------")
+
+
     #answer 2
 
     animal_1 = Animal("cat", "chubzi", 4, "male", "salmon")
@@ -54,3 +57,14 @@ if __name__ == '__main__':
     print("--------------------------")
     owner_1.del_animal(animal_2)
     owner_1.print_info()
+    print("--------------------------")
+
+
+    #answer 3
+    ract_1 = Ract_mkr(15, 9)
+    ract_1.print_ract()
+
+
+
+
+
