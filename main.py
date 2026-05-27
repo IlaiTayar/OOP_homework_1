@@ -63,8 +63,9 @@ if __name__ == '__main__':
     #answer 3
     ract_1 = Ract_mkr(15, 9)
     ract_1.print_ract()
-
-
+    print("--------------------------")
+    print(ract_1.get_area())
+    print("--------------------------")
 
 
 

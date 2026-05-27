@@ -5,6 +5,7 @@ class Ract_mkr:
         self.width = width
         self.box = "[ ]"
 
+
     def print_ract(self):
         w_counter = 0
         h_counter = 0
@@ -17,3 +18,6 @@ class Ract_mkr:
                 h_counter += 1
             if h_counter == self.height:
                 break
+
+    def get_area(self):
+        return (self.width, self.height)
