@@ -3,12 +3,8 @@ from clases.person import Person
 from clases.animal import Animal
 from clases.ract_mkr import  Ract_mkr
 
-# def print_emp(emp_1, emp_2, emp_3):
 
-
-if __name__ == '__main__':
-    #answer 1.
-
+def answer_1():
     person_1 = Person("ilai", "tayar", 24, "male", False)
     person_2 = Person("ben", "ben_moshe", 30, "male", True)
     person_3 = Person("roze", "tayar", 20, "female", False)
@@ -33,8 +29,7 @@ if __name__ == '__main__':
     print("--------------------------")
 
 
-    #answer 2
-
+def answer_2():
     animal_1 = Animal("cat", "chubzi", 4, "male", "salmon")
     animal_2 = Animal("dog", "bullie", 4, "female", "steak")
     animal_3 = Animal("hamster", "robbie", 4, "male", "hamster_food")
@@ -64,17 +59,24 @@ if __name__ == '__main__':
     print("--------------------------")
 
 
-    #answer 3
+def answer_3():
     ract_1 = Ract_mkr(15, 9)
     ract_1.print_ract()
     print("--------------------------")
     print(ract_1.get_area())
     print("--------------------------")
 
-    #answe 4
+
+def answer_4():
     emp_1 = Employee("Robert", 1994, 7000, "64C- WallsStreat")
     emp_2 = Employee("Sam", 2000, 7000, "68D- WallsStreat")
     emp_3 = Employee("John", 1999, 7000, "26B- WallsStreat")
 
     emp_2.print_info(emp_1, emp_3)
+
+if __name__ == '__main__':
+    answer_1()
+    answer_2()
+    answer_3()
+    answer_4()
 
