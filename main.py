@@ -1,6 +1,6 @@
-from person import Person
-from animal import Animal
-from ract_mkr import  Ract_mkr
+from clases.person import Person
+from clases.animal import Animal
+from clases.ract_mkr import  Ract_mkr
 
 if __name__ == '__main__':
     #answer 1.
