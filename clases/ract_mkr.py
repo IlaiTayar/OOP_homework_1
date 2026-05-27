@@ -19,5 +19,6 @@ class Ract_mkr:
             if h_counter == self.height:
                 break
 
+
     def get_area(self):
         return (self.width, self.height)
