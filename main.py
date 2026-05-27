@@ -1,6 +1,10 @@
+from clases.empolyee import Employee
 from clases.person import Person
 from clases.animal import Animal
 from clases.ract_mkr import  Ract_mkr
+
+# def print_emp(emp_1, emp_2, emp_3):
+
 
 if __name__ == '__main__':
     #answer 1.
@@ -67,5 +71,10 @@ if __name__ == '__main__':
     print(ract_1.get_area())
     print("--------------------------")
 
+    #answe 4
+    emp_1 = Employee("Robert", 1994, 7000, "64C- WallsStreat")
+    emp_2 = Employee("Sam", 2000, 7000, "68D- WallsStreat")
+    emp_3 = Employee("John", 1999, 7000, "26B- WallsStreat")
 
+    emp_2.print_info(emp_1, emp_3)
 
